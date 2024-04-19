@@ -1,5 +1,8 @@
 function toCase(text) {
-  // write your code here
+  let lc=text.toLowerCase();
+	let uc=text.toUpperCase();
+	let ans=lc+"-"+uc;
+	return ans;
 }
 
 // DO not change the code below
